@@ -1,0 +1,51 @@
+.allFooter {
+    display: flex;
+    justify-content: space-around;
+}
+.footerMain {
+    background-color: #F4F3F6;
+    padding: 20px;
+    position: sticky;
+    bottom: 0;
+    z-index: 1001;
+}
+.okayBtn {
+    background-color: #31CD63 !important;
+}
+.mobileViewHide{
+    display: flex;
+}
+.allFooter button {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 20px 76px;
+    border-radius: 8px;
+    color: white;
+    border: none;
+}
+
+.progressBarStage {
+    width: 30%;
+    /* display: flex; */
+}
+
+@media (max-width:767px){
+    .allFooter button {
+        padding: 15px 30px;
+    }
+   
+}
+@media (max-width:425px){
+    .allFooter {
+        display: block;
+    }
+    .allFooter button{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .mobileViewHide{
+        display: none;
+    }
+    
+}

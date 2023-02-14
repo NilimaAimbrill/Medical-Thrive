@@ -1,0 +1,8 @@
+<div className={styles.allFooter}>
+        <div className={styles.progressFooter}>
+            <Progress />
+        </div>
+        <div className={styles.btnFooter}>
+            <Button>CONTINUE</Button>
+        </div>
+    </div>

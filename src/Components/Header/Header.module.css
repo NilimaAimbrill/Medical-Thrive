@@ -1,0 +1,86 @@
+.mainName {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    color: black;
+}
+.allThree {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 25px;
+}
+.navBar {
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    margin-bottom: 50px;
+  background-color: #EDE8E3;
+  }
+  .logoImage {
+    width: 95px;
+    height: 35px;
+  }
+  .cancelImage {
+    width: 50px;
+    height: 50px;
+  }
+  .mobileViewHide {
+    display: none;
+  }
+.allThree h2 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: auto;
+}
+@media (max-width:767px){
+    .logoImage{
+        height: 30px;
+        width: 64px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .cancelImage {
+        width: 40px;
+        height: 40px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
+@media (max-width:425px){
+    .logoImage{
+        height: 22px;
+        width: 60px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .allThree {
+        padding: 15px 20px;
+    }
+    .allThree h2 {
+        font-size: 18px;
+    }
+    .cancelImage {
+        width: 36px;
+        height: 36px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .navBar {
+        margin-bottom: 24px;
+    }
+    .mobileViewHide {
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 40px;
+      }
+}
+@media (max-width:321px){
+    .allThree h2 {
+        font-size: 16px;
+    }
+    .allThree {
+        padding: 15px 5px;
+    }
+}

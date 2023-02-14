@@ -1,0 +1,83 @@
+.optionLabelAndText {
+  display: flex;
+  margin: auto;
+}
+/* .resultMain {
+  margin-bottom: 40px;
+} */
+.moneyImg {
+  border-radius: 50%;
+  background-color: #ede8e3;
+  padding: 10px 13px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 16px;
+  margin-right: 25px;
+}
+.options {
+  width: 30%;
+  margin: auto auto 40px auto;
+}
+
+.optionLabelAndText {
+    padding: 10px 0px;
+    background-color: #f4f3f6;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.resultHead h3 {
+    font-size: 28px;
+  line-height: 38px;
+  font-weight: 600px;
+  text-align: center;
+  color: #191d63;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+.scores {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30%;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.points {
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-left: 35%; */
+}
+@media (max-width:1025px) {
+  .options {
+    width: 45%;
+  }
+}
+@media (max-width:800px) {
+  .options {
+    width: 60%;
+  }
+}
+@media (max-width:580px) {
+  .options {
+    width: 78%;
+  }
+  .scores {
+    margin-right: 20%;
+  }
+}
+@media (max-width:440px) {
+  .options {
+    width: 90%;
+  }
+}
+@media (max-width:330px) {
+  .options {
+    width: 95%;
+  }
+  .scores {
+    margin-right: 15%;
+  }
+}

@@ -1,0 +1,20 @@
+.heroHeading h2 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 600px;
+    text-align: center;
+    color: #191D63;
+    
+}
+.heroHeading {
+    margin: auto;
+}
+.mainHero {
+    margin-bottom: 80px;
+}
+@media (max-width:425px) {
+    .heroHeading h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}

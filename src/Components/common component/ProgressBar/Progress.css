@@ -1,0 +1,23 @@
+.progressStyle .progress {
+    width: 200px !important;
+
+}
+.progressStyle {
+    display: flex;
+    margin: auto 0;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+.progressStyle span {
+    color: #757575;
+    font-size: 16px;
+    margin-top: -5px;
+}
+.progress-bar {
+    background-color: #31CD63 !important;
+}
+@media (max-width:425px){
+    .progressStyle .progress {
+        width: 220px !important;
+    }   
+}
